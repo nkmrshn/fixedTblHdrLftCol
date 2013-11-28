@@ -1,17 +1,17 @@
 # jQuery Fixed Table Header and Left Column Plugin
----
+
 
 ## Description
----
+
 fixedTblHdrLftCol is a jQuery plugin to modify a table element with a fixed header element and fixed left columns.
 
 ## Requirements
----
+
 * [jQuery](http://jquery.com/) v2.0.3+.
 * The header/body must be wrapped around by a THEAD/TBODY element.
 
 ## Settings
----
+
 ![sample1](samples/sample1.png)
 
 Option 1  |Option 2  |Option 3 |Default value        |Datatype|Remarks
@@ -49,11 +49,11 @@ If this option was *true*, the plugin will automaticaly clone the top left corne
 If there were two or more tables which you want to syncronize the scroll events, set the jQuery selector to **scroll.syncWith** option.
 
 ## TODO
----
+
 Currently, this plugin does NOT support COLSPAN and ROWSPAN attributes.
 
 ## Browsers
----
+
 This plugin is tested with following browsers:
 
 * Apple Safari 7.0+ (OS X)
@@ -62,10 +62,10 @@ This plugin is tested with following browsers:
 * Mozilla Firefox 25.0+ (OS X, Windows)
 
 ## Samples
----
+
 * HTML5/CSS3
 * The jQuery CDN and the [YUI CSS Reset](http://yuilibrary.com/yui/docs/cssreset/) CDN are used.
 
 ## License
----
+
 Released under the [MIT license](http://www.opensource.org/licenses/MIT).
