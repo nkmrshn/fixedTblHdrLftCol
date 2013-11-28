@@ -66,6 +66,10 @@ This plugin is tested with following browsers:
 * HTML5/CSS3
 * The jQuery CDN and the [YUI CSS Reset](http://yuilibrary.com/yui/docs/cssreset/) CDN are used.
 
+0. [Basic](http://nkmrshn.com/fixedTblHdrLftCol/samples/sample_0_basic.html)
+1. [Multi-fixed](http://nkmrshn.com/fixedTblHdrLftCol/samples/sample_1_multi.html)
+2. [Syncronize scroll events](http://nkmrshn.com/fixedTblHdrLftCol/samples/sample_2_sync.html)
+
 ## License
 
 Released under the [MIT license](http://www.opensource.org/licenses/MIT).
