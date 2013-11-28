@@ -1,5 +1,5 @@
 /*!
- * jQuery Fixed Table Header and Left Column Plugin
+ * Fixed Table Header and Left Column
  * 
  * Copyright (c) 2013 nkmrshn
  *
