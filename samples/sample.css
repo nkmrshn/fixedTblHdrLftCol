@@ -1,0 +1,46 @@
+thead th {
+  height: 25px;
+  width: 100px;
+  padding-left: 5px;
+  padding-right: 5px;
+  line-height: 25px;
+}
+
+thead th:first-child {
+  width: 80px;
+}
+
+tbody td {
+  word-break: break-all;
+  padding: 5px;
+  border: 0;
+  width: 100px;
+  vertical-align: top;
+}
+
+tbody td:first-child {
+  width: 80px;
+}
+
+div.fTHLC-outer-wrapper {
+  border: 1px solid #000000;
+  margin: 50px auto;
+}
+
+div.fTHLC-inner-wrapper {
+  border: 1px dotted #000000;
+}
+
+div.fTHLC-outer-corner {
+  background-color: #ffffff;
+  border-right: 1px solid #000000;
+  border-bottom: 1px solid #000000;
+}
+
+table tr .cols {
+  background-color: #FFE4E1;
+}
+
+table tr .rows {
+  background-color: #E0FFFF;
+}
