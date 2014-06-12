@@ -66,7 +66,7 @@ All samples are written in HTML5/CSS3. The jQuery CDN and the [YUI CSS Reset](ht
 0. [Basic](http://nkmrshn.com/fixedTblHdrLftCol/samples/sample_0_basic.html)
 1. [Multi-fixed 1](http://nkmrshn.com/fixedTblHdrLftCol/samples/sample_1_multi.html)
 2. [Multi-fixed 2](http://nkmrshn.com/fixedTblHdrLftCol/samples/sample_2_multi.html)
-3. [Syncronize scroll events](http://nkmrshn.com/fixedTblHdrLftCol/samples/sample_2_sync.html)
+3. [Syncronize scroll events](http://nkmrshn.com/fixedTblHdrLftCol/samples/sample_3_sync.html)
 
 ## License
 
