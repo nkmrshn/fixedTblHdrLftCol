@@ -42,7 +42,7 @@ When you set the **corner.appended** option to *false* and scrolled the table, t
 
 ![sample2](samples/sample2.png)
 
-If this option was *true*, the plugin will automaticaly clone the top left corner of the table and append it to most front. If it's event handlers were bounded before, please set **corner.deepClone** option to *true*.>
+If this option was *true*, the plugin will automaticaly clone the top left corner of the table and append it to most front. If it's event handlers were bounded before, please set **corner.deepClone** option to *true*.
 
 ### Syncronize Scroll Events
 If there were two or more tables which you want to syncronize the scroll events, set the jQuery selector to **scroll.syncWith** option.
