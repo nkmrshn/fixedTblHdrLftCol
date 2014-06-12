@@ -6,7 +6,7 @@ fixedTblHdrLftCol is a jQuery plugin to modify a table element with a fixed head
 
 ## Requirements
 
-* [jQuery](http://jquery.com/) v2.0.3+.
+* [jQuery](http://jquery.com/) v2.1.1+.
 * The header/body must be wrapped around by a THEAD/TBODY element.
 
 ## Settings
@@ -62,11 +62,12 @@ This plugin is tested with following browsers:
 
 ## Samples
 
-Written in HTML5/CSS3. The jQuery CDN and the [YUI CSS Reset](http://yuilibrary.com/yui/docs/cssreset/) CDN are used.
+All samples are written in HTML5/CSS3. The jQuery CDN and the [YUI CSS Reset](http://yuilibrary.com/yui/docs/cssreset/) CDN are used. 
 
 0. [Basic](http://nkmrshn.com/fixedTblHdrLftCol/samples/sample_0_basic.html)
-1. [Multi-fixed](http://nkmrshn.com/fixedTblHdrLftCol/samples/sample_1_multi.html)
-2. [Syncronize scroll events](http://nkmrshn.com/fixedTblHdrLftCol/samples/sample_2_sync.html)
+1. [Multi-fixed 1](http://nkmrshn.com/fixedTblHdrLftCol/samples/sample_1_multi.html)
+2. [Multi-fixed 2](http://nkmrshn.com/fixedTblHdrLftCol/samples/sample_2_multi.html)
+3. [Syncronize scroll events](http://nkmrshn.com/fixedTblHdrLftCol/samples/sample_2_sync.html)
 
 ## License
 

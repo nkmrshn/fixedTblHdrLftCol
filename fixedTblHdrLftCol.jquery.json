@@ -5,7 +5,7 @@
   "keywords": [
     "fixed", "table", "header", "left", "column"
   ],
-  "version": "0.0.1",
+  "version": "0.0.2",
   "author": {
     "name": "nkmrshn",
     "url": "http://nkmrshn.com/"
@@ -19,6 +19,6 @@
   "bugs": "https://github.com/nkmrshn/fixedTblHdrLftCol/issues",
   "homepage": "https://github.com/nkmrshn/fixedTblHdrLftCol",
   "dependencies": {
-    "jquery": ">=2.0.3"
+    "jquery": ">=2.1.1"
   }
 }
