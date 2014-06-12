@@ -1,7 +1,7 @@
 /*!
  * Fixed Table Header and Left Column
  * 
- * Copyright (c) 2013 nkmrshn
+ * Copyright (c) 2013,2014 nkmrshn
  *
  * Released under the MIT License.
  * http://www.opensource.org/licenses/MIT
@@ -243,7 +243,7 @@
         });
       }
       
-      function makeRowSameHeight(table) {
+      function recalHeight(table) {
         table.find('tbody tr').each(function() {
           var maxHeight = 0;
 
@@ -260,7 +260,7 @@
           $(this).hide().fadeIn(0);
         });
       }
-      
+
       function appendCorner(table) {
         var corner = $('<div></div>')
                        .attr('id', cfg.corner.outer.idName)
@@ -297,6 +297,23 @@
         innerTable.appendTo(corner);
         corner.appendTo(table.parent());
       }
+
+      function recalHeaderPosition(table) {
+        var leftPosition = [];
+
+        table.find('tbody tr:first').each(function() {
+          $(this).find('td').each(function() {
+            var position = $(this).position();
+            leftPosition.push(position.left);
+          });
+        });
+
+        table.find('thead tr').each(function() {
+          $(this).find('th').each(function(i) {
+            $(this).css('left', leftPosition[i]+'px');
+          });
+        });
+      }
       
       function init(table) {
         setLeftColumnCSS(table);
@@ -307,10 +324,12 @@
         createOuter(table);
         createInner(table);
         
-        makeRowSameHeight(table);
+        recalHeight(table);
         
         if(cfg.corner.append)
           appendCorner(table);
+
+        recalHeaderPosition(table);
       }
       
       function scrollCols(table) {
