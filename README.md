@@ -55,10 +55,9 @@ Currently, this plugin does NOT support COLSPAN and ROWSPAN attributes.
 
 This plugin is tested with following browsers:
 
-* Apple Safari 7.0+ (OS X)
-* Google Chrome 31.0+ (OS X, Windows)
-* Microsoft Internet Explorer 10.0+ (Windows)
-* Mozilla Firefox 25.0+ (OS X, Windows)
+* Apple Safari 7.0+
+* Google Chrome 35.0+
+* Mozilla Firefox 30.0+ 
 
 ## Samples
 
